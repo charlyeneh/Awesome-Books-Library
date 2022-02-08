@@ -31,11 +31,10 @@ The project could be accessed by visiting the website link.
 - Twitter: [@twitterhandle](https://twitter.com/ProgrammerBaby?s=09)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/charles-chukwunweike-eneh-5345a2147)
 
-👤 \*\* \*\*
+👤 **Michael Tamirie**
 
-- GitHub:
-- Twitter:
-- LinkedIn:
+- GitHub: [@MichaelTamirie](https://github.com/Micky373)
+- LinkedIn: [Michael_Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
 
 ## 🤝 Contributing
 
