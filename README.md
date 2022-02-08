@@ -4,7 +4,7 @@
 
 > In this project, we built a basic website - Awesome Books: plain JavaScript with objects, that allows users to add/remove books from a list.
 
-![screenshot](./images/app-screenshot.png)
+![screenshot](./Awesome-books-Library/Awesome_book1.png)
 
 The Awesome Books Project, which is a basic website that allows users to add/remove books from a list. This was achieved using JavaScript objects and arrays. I also dynamically modifed the DOM and add basic events.
 
