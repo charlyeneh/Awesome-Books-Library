@@ -14,12 +14,6 @@ The Awesome Books Project, which is a basic website that allows users to add/rem
 - HTML and CSS
 - Bootstrap
 
-## Live Demo
-
-[Live Demo Link](https://charlyeneh.github.io/Awesome-books/)
-
-## Getting Started
-
 **Instructions on setting up your project locally.**
 The project could be accessed by visiting the website link.
 
