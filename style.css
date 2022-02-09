@@ -122,3 +122,43 @@ input {
 	padding: 0.5rem;
 	margin: 4.5rem 1rem 0.5rem 1rem;	
 }
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 3rem 0;
+}
+.contact_info ul{
+    align-self: flex-start;
+    padding-left: 35%;
+    font-size: 1.5rem;
+}
+.contact_info p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.book_lists {
+    display: flex;
+    padding: 1rem;
+    gap: 0.2rem;
+    width: 35rem;
+    margin: 0 3rem 0 30rem;
+    border: 3px solid black;
+}
+.book_lists:nth-child(odd) {
+    background-color: #94A7AE;
+  }
+.book_lists:nth-child(even) {
+    background-color: #F4F2F3;
+  }
+#List {
+    padding: 3rem 0;
+}
+#List h1{
+    text-align: center;
+}
+#List p {
+    width: 20rem;
+}
