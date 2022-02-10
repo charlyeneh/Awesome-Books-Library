@@ -40,7 +40,7 @@ function addEvents() {
 // populate dom with the list
 const addBtn = document.querySelector('#add-btn');
 function showBooks(list) {
-  const booksListDiv = document.querySelector('#List');
+  const booksListDiv = document.querySelector('#Book_Lists');
   for (let i = 0; i < list.length; i += 1) {
     const div = document.createElement('div');
     const pTitle = document.createElement('p');
@@ -57,6 +57,9 @@ function showBooks(list) {
   removeBtn = document.querySelectorAll('.remove');
   addEvents();
 }
+const listClass = document.getElementById('List');
+const addNewClass = document.getElementById('Add_new');
+const contactClass = document.getElementById('Contact');
 
 // add book to the list
 function addBook() {
@@ -68,6 +71,9 @@ function addBook() {
     showBooks([book]);
     addToLocalStorage(books);
     document.querySelector('form').reset();
+    listClass.classList.remove('none');
+    addNewClass.classList.add('none');
+    contactClass.classList.add('none');
   }
 }
 addBtn.addEventListener('click', addBook);
@@ -80,3 +86,28 @@ window.onload = () => {
     books = localBooks;
   }
 };
+
+// Nav bar responsive
+
+const jumpToList = document.getElementById('jump_to_list');
+const jumpToAddNew = document.getElementById('jump_to_add_new');
+const jumpToContact = document.getElementById('jump_to_contact');
+jumpToList.addEventListener('click', () => {
+  listClass.classList.remove('none');
+  addNewClass.classList.add('none');
+  contactClass.classList.add('none');
+});
+jumpToAddNew.addEventListener('click', () => {
+  listClass.classList.add('none');
+  addNewClass.classList.remove('none');
+  contactClass.classList.add('none');
+});
+jumpToContact.addEventListener('click', () => {
+  listClass.classList.add('none');
+  addNewClass.classList.add('none');
+  contactClass.classList.remove('none');
+});
+
+// Adding date
+const dateDisplay = document.getElementById('date');
+dateDisplay.innerHTML = Date();
