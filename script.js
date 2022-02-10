@@ -60,6 +60,7 @@ function showBooks(list) {
   removeBtn = document.querySelectorAll('.remove');
   addEvents();
 }
+
 // add book to the list
 function addBook() {
   const bookTitle = document.querySelector('#title').value;

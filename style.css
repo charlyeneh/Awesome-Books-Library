@@ -65,6 +65,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 #jump_to_list:active {
@@ -157,11 +158,13 @@ input {
 
 #List {
   border: 0.2rem solid black;
-  margin: 1rem 0.5rem 5rem 0.5rem;
+  margin: 1rem 0.5rem 5rem 25%;
+  width: 50%;   
 }
 
 h1 {
   text-align: center;
+  margin-top: 4rem;
 }
 
 #List p {
