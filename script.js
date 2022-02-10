@@ -104,5 +104,7 @@ jumpToContact.addEventListener('click', () => {
   addNewClass.classList.add('none');
   contactClass.classList.remove('none');
 });
+
+// Adding date
 const dateDisplay = document.getElementById('date');
 dateDisplay.innerHTML = Date();
