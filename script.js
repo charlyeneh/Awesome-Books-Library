@@ -68,6 +68,9 @@ function addBook() {
     showBooks([book]);
     addToLocalStorage(books);
     document.querySelector('form').reset();
+    listClass.classList.remove('none');
+    addNewClass.classList.add('none');
+    contactClass.classList.add('none');
   }
 }
 addBtn.addEventListener('click', addBook);

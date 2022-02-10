@@ -57,7 +57,7 @@ p {
 }
 
 #Add_new {
-  margin: 3rem 0 8rem 0;
+  margin: 3rem 0 10rem 0;
 }
 
 .add_new {
@@ -121,7 +121,7 @@ input {
 }
 
 #Contact {
-  margin: 2rem 0 6.3rem 0;
+  margin: 0.5rem 0 5.5rem 0;
 }
 
 .contact_info {
@@ -144,7 +144,7 @@ input {
 }
 
 #List {
-  margin-top: 8rem;
+  margin-top: 5.5rem;
   margin-bottom: 23.2rem;
 }
 
