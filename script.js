@@ -80,3 +80,29 @@ window.onload = () => {
     books = localBooks;
   }
 };
+
+// Nav bar responsive
+
+const jumpToList = document.getElementById('jump_to_list');
+const jumpToAddNew = document.getElementById('jump_to_add_new');
+const jumpToContact = document.getElementById('jump_to_contact');
+const listClass = document.getElementById('List');
+const addNewClass = document.getElementById('Add_new');
+const contactClass = document.getElementById('Contact');
+jumpToList.addEventListener('click', () => {
+  listClass.classList.remove('none');
+  addNewClass.classList.add('none');
+  contactClass.classList.add('none');
+});
+jumpToAddNew.addEventListener('click', () => {
+  listClass.classList.add('none');
+  addNewClass.classList.remove('none');
+  contactClass.classList.add('none');
+});
+jumpToContact.addEventListener('click', () => {
+  listClass.classList.add('none');
+  addNewClass.classList.add('none');
+  contactClass.classList.remove('none');
+});
+const dateDisplay = document.getElementById('date');
+dateDisplay.innerHTML = Date();
