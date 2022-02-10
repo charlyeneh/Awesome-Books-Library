@@ -17,6 +17,10 @@ The Awesome Books Project, which is a basic website that allows users to add/rem
 **Instructions on setting up your project locally.**
 The project could be accessed by visiting the website link.
 
+## Live Demo 
+
+[Click here to see the Awesome Library App](https://charlyeneh.github.io/Awesome-books-Library/) 
+
 ## Authors
 
 👤 **Eneh Charles Chukwunweike**
