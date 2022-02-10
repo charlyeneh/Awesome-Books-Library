@@ -11,7 +11,7 @@ class Book {
     this.id = id;
   }
 
-  static removeBook(ref) {
+  removeBook(ref) {
     const result = books.filter((value) => value.id !== ref);
     books = result;
     addToLocalStorage(books);
@@ -52,8 +52,8 @@ function showBooks(list) {
     btn.innerHTML = 'Remove';
     btn.id = list[i].id;
     div.appendChild(btn);
-    const hr = document.createElement('hr');
-    div.appendChild(hr);
+    // const hr = document.createElement('hr');
+    // div.appendChild(hr);
     div.className = 'book_lists';
     booksListDiv.appendChild(div);
   }
