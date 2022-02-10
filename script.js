@@ -10,28 +10,28 @@ class Book {
     this.author = author;
     this.id = id;
   }
-
-  removeBook(ref) {
-    const result = books.filter((value) => value.id !== ref);
-    books = result;
-    return addToLocalStorage(books);
-  }
 }
 
 const book1 = new Book('title1', 'author1', '001');
 const book2 = new Book('title2', 'author2', '002');
 const book3 = new Book('title3', 'author3', '003');
-const bookAdmin = new Book('adminTitle', 'adminAuthor', '004');
 
 books = [book1, book2, book3];
 
 // add event listner to newly added book remove button
 let removeBtn = document.querySelectorAll('.remove');
+
+function removeBook(ref) {
+  const result = books.filter((value) => value.id !== ref);
+  books = result;
+  addToLocalStorage(books);
+}
+
 function addEvents() {
   removeBtn.forEach((element) => {
     element.addEventListener('click', (e) => {
       const ref = e.target.id;
-      bookAdmin.removeBook(ref);
+      removeBook(ref);
       e.target.parentElement.remove();
     });
   });
