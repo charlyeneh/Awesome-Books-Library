@@ -14,7 +14,7 @@ class Book {
   removeBook(ref) {
     const result = books.filter((value) => value.id !== ref);
     books = result;
-    addToLocalStorage(books);
+    return addToLocalStorage(books);
   }
 }
 
