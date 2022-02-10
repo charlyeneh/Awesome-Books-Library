@@ -38,6 +38,8 @@ The project could be accessed by visiting the website link.
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/charlyeneh/Awesome-books-Library/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
