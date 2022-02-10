@@ -41,7 +41,6 @@ function addEvents() {
 const addBtn = document.querySelector('#add-btn');
 function showBooks(list) {
   const booksListDiv = document.querySelector('#List');
-  // let colorChange = 0;
   for (let i = 0; i < list.length; i += 1) {
     const div = document.createElement('div');
     const pTitle = document.createElement('p');
@@ -52,8 +51,6 @@ function showBooks(list) {
     btn.innerHTML = 'Remove';
     btn.id = list[i].id;
     div.appendChild(btn);
-    // const hr = document.createElement('hr');
-    // div.appendChild(hr);
     div.className = 'book_lists';
     booksListDiv.appendChild(div);
   }
