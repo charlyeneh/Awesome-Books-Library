@@ -40,7 +40,7 @@ function addEvents() {
 // populate dom with the list
 const addBtn = document.querySelector('#add-btn');
 function showBooks(list) {
-  const booksListDiv = document.querySelector('#List');
+  const booksListDiv = document.querySelector('#Book_Lists');
   for (let i = 0; i < list.length; i += 1) {
     const div = document.createElement('div');
     const pTitle = document.createElement('p');
